@@ -33,3 +33,11 @@
 4. **提交结果**：
    - `git add <file>`
    - `git commit -m "Fix conflict"`
+
+## 🌍 第四阶段：远程协作 (走向世界)
+**核心概念**：本地仓库 (Local) <-> 远程仓库 (Remote/GitHub)
+
+- **`git remote add origin <url>`**：给远程仓库起个名字叫 `origin` 并关联起来。
+- **`git push -u origin main`**：把本地代码推送到远程（第一次用 `-u` 绑定）。
+  - 后续直接用 **`git push`**。
+- **`git pull`**：把远程最新的代码拉取到本地（相当于 下载 + 合并）。
